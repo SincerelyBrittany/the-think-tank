@@ -13,7 +13,11 @@ class IdeasController < ApplicationController
 
     def update
         @idea.update(idea_params)
-        redirect_to @idea
+        if @idea.valid?
+            redirect_to @idea
+        else 
+           render :edit
+        end
     end
 
     def new
@@ -26,7 +30,6 @@ class IdeasController < ApplicationController
             @idea.save
             redirect_to @idea
         else 
-            
             render :new
         end
     end 
