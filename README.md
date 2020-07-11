@@ -1,6 +1,6 @@
 # the-think-tank
 
-![Contributors][contributors-shield]][contributors-url]
+![Contributors][contributors-shield]]
 <!-- [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -17,7 +17,7 @@
   <h3 align="center">The Think Tank</h3>
 
   <p align="center">
-    An awesome Sinatra application collaboration with <a href="https://github.com/Rkebede"> Rkebede </a> , <a href="https://github.com/MMcClure11"> MMcClure11 </a>, and <a href="https://github.com/SincerelyBrittany"> SincerelyBrittany </a>
+    An awesome Sinatra application collaboration with <a href="https://github.com/Rkebede"> Rkebede </a> , <a href="https://github.com/MMcClure11"> MMcClure11 </a>, <a href="https://github.com/jordles113"> jordles113 </a>, and <a href="https://github.com/SincerelyBrittany"> SincerelyBrittany </a>
     <br />
     <a href="">View Demo</a>
     ·
