@@ -1,0 +1,10 @@
+<%= form_for @idea do |f|%>
+    <%= f.label :title%>
+    <%= f.text_field :title%><br>
+    <%= f.label :description%>
+    <%= f.text_area :description%><br>
+
+    <%= f.submit%>
+<% end %>
+
+<%= link_to "All Ideas", ideas_path%><br>
