@@ -22,8 +22,13 @@ class IdeasController < ApplicationController
 
     def create
         @idea = Idea.new(idea_params)
-        @idea.save
-        redirect_to @idea
+        if @idea.valid?
+            @idea.save
+            redirect_to @idea
+        else 
+            
+            render :new
+        end
     end 
 
     def destroy
